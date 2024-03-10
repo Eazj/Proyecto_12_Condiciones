@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: green;
+    height: 20vh;
+    color: white;
+}
+button{
+    margin-top: 1vh;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+.botones{
+    text-decoration: none;
+    background-color: greenyellow;
+    color: black;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}

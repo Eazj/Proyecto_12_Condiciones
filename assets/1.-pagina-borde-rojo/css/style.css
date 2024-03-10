@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.image-container{
+    height: 40vh;
+}
+.active{
+    border: 2px solid red;
+}
+.image-container img{
+    height: 100%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+    width: 25vw;
+}
+.botones{
+    text-decoration: none;
+    background-color: #f49abf;
+    color: #fcdfeb;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
